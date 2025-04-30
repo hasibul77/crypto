@@ -1,36 +1,3 @@
-/*const axios = require('axios');
-
-const API_KEY = '6268307e-b07e-47e5-9a56-8b6138ce0ade'; // Replace with your real API key
-
-const url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest';
-
-const params = {
-  symbol: 'BTC,ETH', // Add more symbols as needed
-  convert: 'USD'
-};
-
-const headers = {
-  'X-CMC_PRO_API_KEY': API_KEY,
-  'Accept': 'application/json'
-};
-
-axios.get(url, { params, headers })
-  .then(response => {
-    const data = response.data.data;
-
-    for (const symbol in data) {
-      const coin = data[symbol].quote.USD;
-      console.log(`\n${symbol}:`);
-      console.log(`  volume_24h: ${coin.volume_24h}`);
-      console.log(`  volume_change_24h: ${coin.volume_change_24h}`);
-      console.log(`  percent_change_1h: ${coin.percent_change_1h}`);
-      console.log(`  percent_change_24h: ${coin.percent_change_24h}`);
-    }
-  })
-  .catch(error => {
-    console.error('Error fetching data:', error.message);
-  });
-*/
 const axios = require('axios');
 
 const CMC_API_KEY = '6268307e-b07e-47e5-9a56-8b6138ce0ade'; // Replace this with your CoinMarketCap API key
