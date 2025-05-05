@@ -5,7 +5,7 @@ coingeko api : https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&or
 
 coinmarketcap api : https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest
 
-Note: Install axios( for using the code base)
+Note: Install axios & mongo ( for using the code base)
 
 Note: For postman testing:
 ( for using coinmarketcap you have to create an account and login to the dashboard, then you have to generate secret kry. For example:
